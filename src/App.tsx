@@ -18,7 +18,7 @@ function App() {
     return (
         <>
             <Navbar>
-                <Logo>Fishing manufacturing gear</Logo>
+                <Logo>Fishing Manufacturing Gear</Logo>
                 <NavContainer>
                     <NavItem active={active === 'home'} onClick={() => setActive('home')}>Home</NavItem>
                     <NavItem active={active === 'products'} onClick={() => setActive('products')}>Products</NavItem>
