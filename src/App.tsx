@@ -10,6 +10,7 @@ import {Navbar} from 'navbar/Navbar'
 import {Footer} from "./footer/Footer";
 import {Home} from "./home/Home";
 import {About} from "./about/About";
+import {Products} from 'products/Products'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
 
             {active === 'home' ? <Home /> : null}
             {active === 'about' ? <About /> : null}
+            {active === 'products' ? <Products /> : null}
             <Footer>&#169; 2021 Fishing Manufacturing Gear sp. z.o.o</Footer>
         </>
     )
