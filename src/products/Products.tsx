@@ -22,8 +22,13 @@ const Product = styled.div({
     flex: '0 0 30.3333%',
     background: colors.light,
     borderRadius: '10px',
+    boxShadow:
+        'rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset',
     [media.small]: {
         flex: '0 0 45%',
+    },
+    [media.phone]: {
+        flex: '0 0 90%',
     }
 })
 

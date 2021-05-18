@@ -11,6 +11,9 @@ export const NavContainer = styled.div({
     alignItems: 'center',
     [media.small]: {
         flexDirection: 'row',
+    },
+    [media.phone]: {
+        flexDirection: 'row',
     }
 })
 
@@ -29,7 +32,7 @@ interface navProps {
 export const NavItem = styled.div((props:navProps) => ({
     background: props.active ? colors.silver : colors.nav,
     width: '25vw',
-    height: '40px',
+    height: '35px',
     fontSize: '25px',
     fontWeight: 'bold',
     textAlign: 'center',
@@ -47,5 +50,8 @@ export const NavItem = styled.div((props:navProps) => ({
         height: '42px',
         width: '26vw',
         fontSize: '26px'
+    },
+    [media.phone]: {
+        fontSize: '20px',
     }
 }))

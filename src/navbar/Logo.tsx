@@ -14,10 +14,18 @@ export const Logo = styled.div({
   alignItems: 'center',
   justifyContent: 'center',
   padding: '0 15px',
+  // width: '96%',
   boxShadow:
     'rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset',
   [media.small]: {
-    margin: '0',
-    width: '95%',
+    margin: '10px 0',
+    width: '100%',
+  },
+  [media.phone]: {
+    margin: '10px 0',
+    width: '100%',
+    fontSize: '32px',
+    height: '175px',
   }
+
 })
