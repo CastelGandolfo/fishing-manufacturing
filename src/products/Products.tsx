@@ -12,7 +12,7 @@ const ProductsContainer = styled.div({
     flexWrap: "wrap",
     alignItems: 'center',
     justifyContent: 'center',
-    margin: '-10px',
+    // margin: '-10px',
     [media.small]: {
         justifyContent: 'center',
     }
@@ -63,6 +63,8 @@ const Description = styled.div({
     textAlign: 'center',
     display: 'flex',
     alignItems: 'center',
+    fontWeight: 'bold',
+    fontSize: '18px'
 })
 
 export const Products = () => {
