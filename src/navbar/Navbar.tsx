@@ -13,6 +13,10 @@ export const Navbar = styled.div({
     },
     [media.phone]: {
         flexDirection: 'column',
+        height: '150px',
+    },
+    [media.mini]: {
+        flexDirection: 'column',
         height: '190px',
     }
 })

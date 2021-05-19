@@ -14,6 +14,9 @@ export const NavContainer = styled.div({
     },
     [media.phone]: {
         flexDirection: 'row',
+    },
+    [media.mini]: {
+        flexDirection: 'row',
     }
 })
 
@@ -52,6 +55,9 @@ export const NavItem = styled.div((props:navProps) => ({
         fontSize: '26px'
     },
     [media.phone]: {
+        fontSize: '20px',
+    },
+    [media.mini]: {
         fontSize: '20px',
     }
 }))
